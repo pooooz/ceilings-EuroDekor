@@ -1,0 +1,356 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFFAFA;
+}
+
+nav {
+    background-color: #FCF6F6;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 2vw;
+}
+
+h2 {
+    font-size: 1.5vw;
+
+}
+
+h3 {
+    font-size: 1.3vw;
+}
+
+
+.nav-link {
+    color: rgba(0, 0, 0, .55);
+}
+
+a {
+    -webkit-appearance: none !important;
+    text-decoration: none;
+}
+
+.hero-description {
+    background-color: #4A96EE;
+}
+
+#hero {
+    margin-bottom: 5.2vw;
+}
+
+.btn {
+    border: 0.25vw solid #E7E7E7;
+    font-weight: 600;
+    font-size: 0.85vw;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 0;
+    letter-spacing: 0.05em;
+}
+
+#connect {
+    margin-top: 60%;
+    border: 0.25vw solid #9DD0F4;
+    font-weight: 600;
+    font-size: 0.72vw;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 0;
+    letter-spacing: 0.05em;
+}
+
+#hero-text {
+    font-family: 'Montserrat', sans-serif !important;
+    margin-top: 60%;
+    border: 0.25vw solid #9DD0F4;
+    font-weight: 600;
+    font-size: 1.6vw;
+    line-height: 3vw;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+#about {
+    margin-bottom: 6.88vw;
+}
+
+.about-text {
+    border: 0.25vw solid #9DD0F4;
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.8vw;
+    line-height: 1.04vw;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding: 1.8vw;
+
+}
+
+#about-body {
+    background-color: #4A96EE;
+    padding: 1.14vw;
+}
+
+#catalog-header {
+    height: 5.5vw;
+    background-color: #4A96EE;
+    font-weight: 300;
+    font-size: 3.75vw;
+    line-height: 20px;
+    letter-spacing: 0.25em;
+    color: #FFFFFF;
+    margin-bottom: 6.56vw;
+}
+
+.card {
+    font-weight: 600;
+    font-size: 1.31vw;
+    line-height: 2.1vw;
+    text-align: center;
+    color: #000000;
+    border: 0;
+    margin-bottom: 5.2vw;
+}
+
+.card-name {
+    margin-top: 2vw;
+    border: 0.2vw solid #ffffff;
+    width: 30vw;
+}
+
+.card-description {
+    background-color: #9DD0F4;
+}
+
+.description-item {
+    width: 18vw;
+    border: 0.15vw solid #ffffff;
+    margin-top: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cost {
+    width: 17.18vw;
+    border: 0.15vw solid #ffffff;
+}
+
+.lr {
+    border-radius: 0 15px 15px 0;
+}
+
+.rr {
+    border-radius: 15px 0 0 15px;
+
+}
+
+
+form {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#form-header {
+    background-color: #4A96EE;
+    height: 6.77vw;
+    border-radius: 15px 15px 0 0;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+#form-body {
+    background-image: url(../img/cards/15.jpg);
+    background-size: 100% 100%;
+    border-radius: 0 0 15px 15px;
+}
+
+#overlay {
+    background: rgba(157, 208, 244, 0.3);
+}
+
+#name-field {
+    margin-top: 4vw;
+}
+
+#phone-field {
+    margin-top: 2vw;
+}
+
+#form-button {
+    margin-top: 5.2vw;
+    margin-bottom: 3.64vw;
+}
+
+label {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+input {
+    text-align: center;
+}
+
+footer {
+    background-color: #F5F3F3;
+    height: 5.4vw;
+    font-size: 1vw;
+}
+
+.footer-image {
+    max-height: 3.4vw;
+    max-width: 3.4vw;
+}
+
+.contact {
+    color: #6C757D;
+}
+
+.transform {
+    transition: all 0.5s ease-out;
+}
+
+.footer-image:hover {
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 991.98px) {
+    h1 {
+        font-size: 5vw;
+    }
+
+    h2 {
+        font-size: 3.7vw;
+
+    }
+
+    h3 {
+        font-size: 3.6vw;
+    }
+
+    .nav-link {
+        font-size: 3vw;
+    }
+
+    #hero-text {
+        margin-top: 15%;
+        font-size: 4.4vw;
+        line-height: 7.5vw;
+        color: #ffffff;
+    }
+
+    #connect {
+        margin-top: 20%;
+        font-size: 2vw;
+        color: #FFFFFF;
+        margin-bottom: 0;
+    }
+
+    .hero-image {
+        height: 50vw !important;
+    }
+
+    .hero-description {
+        height: 50vw;
+    }
+
+    .about-text {
+        font-size: 3vw;
+        line-height: 3.4vw;
+        padding: 1.8vw;
+    }
+
+    #catalog-header {
+        height: 10vw;
+        font-size: 7vw;
+    }
+
+    .card {
+        font-size: 3.3vw;
+        line-height: 5vw;
+        margin-bottom: 8vw;
+    }
+
+    .card-name {
+        font-size: 4.3vw;
+        width: 100vw;
+        border: 0;
+        border-top: 0.6vw solid #ffffff;
+        border-bottom: 0.6vw solid #ffffff;
+        line-height: 6vw;
+    }
+
+    .card-description {
+        background-color: #9DD0F4;
+    }
+
+    .description-item {
+        width: 45vw;
+        border: 0.4vw solid #ffffff;
+        margin-top: 4vw;
+    }
+
+    .cost {
+        width: 50vw;
+        border: 0.4vw solid #ffffff;
+        margin-top: 7vw;
+        margin-bottom: 5vw;
+    }
+
+    .btn {
+        border: 0.7vw solid #E7E7E7;
+        font-size: 3vw;
+        letter-spacing: 0.05em;
+        margin-bottom: 2vw;
+    }
+
+    .lr {
+        border-radius: 0;
+    }
+
+    .rr {
+        border-radius: 0;
+
+    }
+
+    #form-header {
+        height: 12vw;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    label {
+        font-weight: 400;
+        font-size: 4.3vw;
+        line-height: 29px;
+    }
+
+    #form-button {
+        margin-bottom: 5vw;
+    }
+
+
+    footer {
+        height: 20vw;
+        font-size: 2.7vw;
+    }
+
+    .footer-image {
+        max-height: 8vw;
+        max-width: 8vw;
+    }
+}
+
+
+
+
+
