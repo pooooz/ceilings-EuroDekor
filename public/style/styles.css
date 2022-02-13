@@ -117,7 +117,7 @@ a {
 
 .card-name {
     margin-top: 2vw;
-    border: 0.2vw solid #ffffff;
+    border: 0.2vw solid #000000;
     width: 30vw;
 }
 
@@ -127,7 +127,7 @@ a {
 
 .description-item {
     width: 18vw;
-    border: 0.15vw solid #ffffff;
+    border: 0.15vw solid #000000;
     margin-top: 1vw;
     display: flex;
     align-items: center;
@@ -136,7 +136,7 @@ a {
 
 .cost {
     width: 17.18vw;
-    border: 0.15vw solid #ffffff;
+    border: 0.15vw solid #000000;
 }
 
 .lr {
@@ -349,8 +349,3 @@ footer {
         max-width: 8vw;
     }
 }
-
-
-
-
-
